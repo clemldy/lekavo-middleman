@@ -1,16 +1,21 @@
 .home-banner {
   background-color: #FBF8E6;
   color:               black;
-  height:              60vh;
-  padding:             10px 0;
+  height:              50vh;
   position:            relative;
   z-index:             0;
   img {
-    max-height: 58vh;
+    max-height: 48vh;
   }
   a {
     margin-top: 0.5em;
     font-size: 18px;
+  }
+  @media only screen and (max-width: 610px) {
+    height:       16vh;
+    img {
+      max-height: 15vh;
+    }
   }
 }
 

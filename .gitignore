@@ -2,5 +2,5 @@
 .DS_Store
 .sass-cache
 .cache
-build/
+/build
 /vendor/bundle/

@@ -10,7 +10,7 @@ footer {
   a {
     color:              white;
     &:hover{
-      color:            #FF546F;
+      color:            $brand-info;
       text-decoration:  none;
       background-color: transparent;
     }

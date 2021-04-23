@@ -1,5 +1,7 @@
 @import "variables";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "home";
 @import "navbar";
 @import "footer";
@@ -18,6 +20,9 @@ h1, h2, h3, h4, h5 {
   font-family: $header-font !important;
 }
 
+#grey-bg {
+  background-color: #F8F8F8;
+}
 .padded {
   padding-top:    2em;
   padding-bottom: 2em;
@@ -29,4 +34,8 @@ h1, h2, h3, h4, h5 {
 
 .padding-bottom {
   padding-bottom: 2em;
+}
+
+.color-info {
+  color: $brand-info !important;
 }

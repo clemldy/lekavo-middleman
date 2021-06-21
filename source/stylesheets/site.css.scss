@@ -38,3 +38,12 @@ h1, h2, h3, h4, h5 {
 .color-info {
   color: $brand-info !important;
 }
+
+.line {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin: 30px auto 30px;
+  background: $brand-primary;
+}

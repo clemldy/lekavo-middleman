@@ -26,8 +26,9 @@ footer {
   font-size: 20px;
   i {
     font-size: 30px;
+    color:         white;
   }
-  &-item {
+  .item {
     flex:          1 1 0;
     color:         white;
     padding:       10px 0;
